@@ -9,7 +9,7 @@ Features:
 Examples:
 Idling:
 <p align="center">
-  <img width="460" height="300" src="https://i.imgur.com/DGOfxeL.png">
+  <img src="https://i.imgur.com/DGOfxeL.png">
 </p>
 Debugging:
 ![Showcase Image](https://i.imgur.com/2rotQVc.png)
