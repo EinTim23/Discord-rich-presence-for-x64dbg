@@ -7,6 +7,7 @@ Features:
 - a menu to see the credits and enable/disable the plugin
 
 Examples:  
+  
 Idling:
 <p align="center">
   <img src="https://i.imgur.com/DGOfxeL.png">
