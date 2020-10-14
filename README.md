@@ -6,7 +6,8 @@ Features:
 - Config to enable or disable the rich presence.
 - a menu to see the credits and enable/disable the plugin
 
-Examples:  Idling:
+Examples:  
+Idling:
 <p align="center">
   <img src="https://i.imgur.com/DGOfxeL.png">
 </p>
