@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="plugin.cpp" />
+    <ClCompile Include="pluginmain.cpp" />
+    <ClCompile Include="DiscordSDK\src\connection_win.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\discord_register_win.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\discord_rpc.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\dllmain.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\rpc_connection.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\serialization.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plugin.h" />
+    <ClInclude Include="pluginmain.h" />
+    <ClInclude Include="pluginsdk\_dbgfunctions.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_plugin_types.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_plugins.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_argument.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_assembler.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_bookmark.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_debug.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_comment.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_flag.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_function.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_gui.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_label.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_memory.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_misc.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_module.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_pattern.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_register.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_stack.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_symbol.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\ahocorasick.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\allocators.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\arena.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\arm.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\arm64.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\atoms.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\backoff.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\bridgegraph.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\bridgelist.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\bridgemain.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\capstone.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\compiler.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\connection.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\cursorstreamwrapper.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\dbghelp\dbghelp.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\DeviceNameResolver\DeviceNameResolver.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="discord_register.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="discord_rpc.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="discord-rpc.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\document.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\elf.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\encodedstream.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\encodings.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\error.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\exec.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\exefiles.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\filemap.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\filereadstream.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\filewritestream.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\fwd.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\globals.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\hash.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\hex_lexer.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\integers.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\istreamwrapper.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\jansson\jansson.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\jansson\jansson_config.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\jansson\jansson_x64dbg.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\lexer.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\libyara.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\limits.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\lz4\lz4.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\lz4\lz4file.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\lz4\lz4hc.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\m68k.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\mem.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\memorybuffer.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\memorystream.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\mips.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\modules.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\msg_queue.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\object.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\ostreamwrapper.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\pe.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\parser.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\platform.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\pointer.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\ppc.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\prettywriter.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\proc.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\rapidjson.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\re.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\re_lexer.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\reader.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rpc_connection.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="rpchhee.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\rules.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\scan.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\schema.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\serialization.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\sizedstr.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\sparc.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\stream.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\stream.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\stringbuffer.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\strutils.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\systemz.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\threading.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\TitanEngine\TitanEngine.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\types.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\writer.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\utils.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\x86.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\xcore.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\XEDParse\XEDParse.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="icon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="pluginsdk\capstone\capstone_x64.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\capstone\capstone_x86.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\DeviceNameResolver\DeviceNameResolver_x64.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\DeviceNameResolver\DeviceNameResolver_x86.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\jansson\jansson_x64.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\jansson\jansson_x86.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\lz4\lz4_x64.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\lz4\lz4_x86.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\TitanEngine\TitanEngine_x64.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\TitanEngine\TitanEngine_x86.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\x32bridge.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\x32dbg.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\x64bridge.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\x64dbg.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\XEDParse\XEDParse_x64.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\XEDParse\XEDParse_x86.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\yara\yara_x64.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="pluginsdk\yara\yara_x86.lib">
+      <Filter>Libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{fd648e77-8ace-4451-9b02-8d374d9de887}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DiscordSDK\src\CMakeLists.txt">
+      <Filter>Libs</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DiscordSDK\src\discord_register_osx.m">
+      <Filter>Libs</Filter>
+    </None>
+  </ItemGroup>
+</Project>
