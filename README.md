@@ -8,7 +8,9 @@ Features:
 
 Examples:
 Idling:
-![Image of idling](https://i.imgur.com/DGOfxeL.png)
+<p align="center">
+  <img width="460" height="300" src="https://i.imgur.com/DGOfxeL.png">
+</p>
 Debugging:
 ![Showcase Image](https://i.imgur.com/2rotQVc.png)
 Settings menu:
